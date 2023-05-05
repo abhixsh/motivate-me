@@ -4,24 +4,21 @@
 	<title> Motivational Quote </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="random-tips.css">
 </head>
 <body>
+    <div class="container"></div>
 	<h1>Get your Motivational Quote here</h1>
-    
-	<p id="quote"></p>
-	<button onclick="generateQuote()">Generate Quote</button>
+    <div id="quote-container">
+        <p id="quote"></p>
+        <p id="emoji"></p>
+    </div>
+    <button id="generate-btn">Generate Quote</button>
+    </div>
 
+<script src="random-tips.js"></script>
 	<script>
-		const quotes = [
-
-		];
-
-		const quoteElement = document.getElementById("quote");
-
-		function generateQuote() {
-			const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-			quoteElement.textContent = randomQuote;
-		}
+		
 	</script>
 </body>
 </html>
