@@ -62,11 +62,11 @@ body {
     background-color: #0062cc;
   }
   footer {
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
     font-size: 0.8rem;
-    }
-    
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
