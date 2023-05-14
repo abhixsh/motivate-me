@@ -30,6 +30,8 @@ The webpage's basic structure is contained in the HTML file. The inspirational q
 The website's styles are contained in the CSS file. The background color of the body element is #1c1c1e, and its sans-serif font is from the "Helvetica Neue" family. The maximum width and margin of the webpage are set using the container class. The text-align property of the h1 element is set to center, and the font size is 2.5 rem.
 
 
+<a href="https://ibb.co/qDy8KGp"><img src="https://i.ibb.co/D1VFhXQ/Screenshot-158.png" alt="Screenshot-158" border="0"></a><br /><a target='_blank' href='https://emoticoncentral.com/category/growing-heart'></a>
+<a href="https://ibb.co/FVrKrDW"><img src="https://i.ibb.co/rsjmjwt/Screenshot-159.png" alt="Screenshot-159" border="0"></a><br /><a target='_blank' href='https://emoticoncentral.com/category/growing-heart'></a><br />
 ## Continuous Integration/Continuous Deployment
 
 This project is set up for CI/CD using GitHub Actions. The GitHub Actions procedure gets activated whenever there is a fresh push to the main branch. The procedure tests the JavaScript file to ensure that it is functioning properly. The workflow launches the project to GitHub Pages if the testing is successful. By doing this, the project is always current and functioning properly.
